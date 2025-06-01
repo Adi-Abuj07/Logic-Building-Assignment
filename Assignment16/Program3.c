@@ -6,44 +6,42 @@ $       *       *       *
 #       #       #       $
 
 */
-#include<stdio.h>
-void Pattern(int iRows,int iCols)
+#include <stdio.h>
+void Pattern(int iRows, int iCols)
 {
-    int i=0,j=0;
+    int i = 0, j = 0;
 
-    for(i=1;i<=iRows;i++)
+    for (i = 1; i <= iRows; i++)
     {
-        for(j=1;j<=iCols;j++)
+        for (j = 1; j <= iCols; j++)
         {
-           if(i>j)
-           {
-            printf("#\t");
-           }
-           else if (i==j)
-           {
-             printf("$\t");
-           }
-           else
-           {
-              printf("*\t");
-           }
-           
+            if (i > j)
+            {
+                printf("#\t");
+            }
+            else if (i == j)
+            {
+                printf("$\t");
+            }
+            else
+            {
+                printf("*\t");
+            }
         }
-       printf("\n");
+        printf("\n");
     }
 }
 int main()
 {
-    int iValue1=0,iValue2=0;
+    int iValue1 = 0, iValue2 = 0;
 
     printf("Enter Rows:");
-    scanf("%d",&iValue1);
+    scanf("%d", &iValue1);
 
     printf("Enter Columns:");
-    scanf("%d",&iValue2);
+    scanf("%d", &iValue2);
 
-    Pattern(iValue1,iValue2);
+    Pattern(iValue1, iValue2);
 
     return 0;
-
 }

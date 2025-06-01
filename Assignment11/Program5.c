@@ -1,31 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
 void Pattern(int iNo)
 {
-    int icnt=0;
+  int icnt = 0;
 
-    if(iNo<0)
+  if (iNo < 0)
+  {
+    iNo = -iNo;
+  }
+
+  for (icnt = 1; icnt <= (iNo * 2); icnt++)
+  {
+    if (icnt % 2 == 0)
     {
-        iNo=-iNo;
+      printf("%d\t", icnt);
     }
-  
-    for(icnt=1;icnt<=(iNo*2);icnt++)
-    {
-      if(icnt%2==0)
-      {
-        printf("%d\t",icnt);
-      }
-    }
+  }
 }
 int main()
 {
-    int iValue=0;
-    
-    printf("Enter number of Elements:");
-    scanf("%d",&iValue);
+  int iValue = 0;
 
-    Pattern(iValue);
+  printf("Enter number of Elements:");
+  scanf("%d", &iValue);
 
-    return 0;
+  Pattern(iValue);
+
+  return 0;
 }
 
 /*

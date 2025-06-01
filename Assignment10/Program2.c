@@ -1,36 +1,36 @@
-#include<stdio.h>
+#include <stdio.h>
 int CountOdd(int iNo)
 {
-   int iDigit=0;
-   int iCount=0;
+   int iDigit = 0;
+   int iCount = 0;
 
-   if(iNo<0)
+   if (iNo < 0)
    {
-    iNo=-iNo;
+      iNo = -iNo;
    }
-   while(iNo!=0)
+   while (iNo != 0)
    {
-      iDigit=iNo%10;
-      if(iDigit%2!=0)
+      iDigit = iNo % 10;
+      if (iDigit % 2 != 0)
       {
-        iCount++;
+         iCount++;
       }
-      iNo=iNo/10;
+      iNo = iNo / 10;
    }
    return iCount;
 }
 
 int main()
 {
-    int iValue=0;
-    int iRet=0;
+   int iValue = 0;
+   int iRet = 0;
 
-    printf("Enter number:");
-    scanf("%d",&iValue);
+   printf("Enter number:");
+   scanf("%d", &iValue);
 
-    iRet=CountOdd(iValue);
-     
-    printf("There are %d Odd digit's in given Value",iRet);
+   iRet = CountOdd(iValue);
 
-    return 0;
+   printf("There are %d Odd digit's in given Value", iRet);
+
+   return 0;
 }
