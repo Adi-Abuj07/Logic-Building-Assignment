@@ -1,3 +1,12 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program5.c
+//  Descreption :   Used to find the sum of each elements
+//  Author :        Aditya Abuj
+//  Date :          24/05/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 void Digit(int Arr[], int iLength)
@@ -59,8 +68,7 @@ output :
 Enter the number of elements
 5
 Enter 5 elements one by one
-Enter the 1 element:
-4647
+Enter the 1 element:4647
 Enter the 2 element:7676
 Enter the 3 element:9876
 Enter the 4 element:2334

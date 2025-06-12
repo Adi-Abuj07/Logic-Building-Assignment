@@ -1,6 +1,15 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program3.c
+//  Descreption :   Used to find Diffarance between Minimum number and maximum number 
+//  Author :        Aditya Abuj
+//  Date :          24/05/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
-int Miinmum(int Arr[], int iLength)
+int Minimum(int Arr[], int iLength)
 {
     int iCnt = 0, iMin = 0, iMax = 0, iRes = 0;
     if ((Arr == NULL) || (iLength <= 0))
@@ -48,7 +57,7 @@ int main()
         scanf("%d", &ptr[iCnt]);
     }
 
-    iRet = Miinmum(ptr, iSize);
+    iRet = Minimum(ptr, iSize);
 
     printf("\nDifference is :%d", iRet);
 

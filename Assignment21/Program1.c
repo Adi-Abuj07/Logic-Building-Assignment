@@ -1,3 +1,12 @@
+///////////////////////////////////////////////////////
+//
+//  File name :     Program1.c
+//  Descreption :   Used to find largest number
+//  Author :        Aditya Abuj
+//  Date :          24/05/2025
+//
+///////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 int Miximum(int Arr[], int iLength)

@@ -1,3 +1,12 @@
+///////////////////////////////////////////////////////
+//
+//  File name :     Program2.c
+//  Descreption :   Used to find the smallest number
+//  Author :        Aditya Abuj
+//  Date :          24/05/2025
+//
+///////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 int Miinmum(int Arr[], int iLength)
